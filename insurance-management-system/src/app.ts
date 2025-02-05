@@ -5,6 +5,8 @@ import connectToDb from "./utils/connectToDb";
 import log from "./utils/logger";
 import router from "./routes";
 import deserializeUser from "./middleware/deserializeUser";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 
